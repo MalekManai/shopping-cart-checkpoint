@@ -339,3 +339,17 @@ html, body {
     font-size: 1.75em;
 }
 
+[id='toggle-heart'] {
+    position: absolute;
+    left: -100vw;
+  }
+  [id='toggle-heart']:checked + label {
+    color: #e2264d;
+  }
+  
+  [for='toggle-heart'] {
+    align-self: center;
+    color: #aab8c2;
+    font-size: 2em;
+    cursor: pointer;
+  }
